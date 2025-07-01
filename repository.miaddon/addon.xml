@@ -1,20 +1,18 @@
 <addon id="repository.miaddon"
        name="Mi Repositorio Kodi"
        version="1.0.0"
-       provider-name="EdgarFCJ">
-  
+       provider-name="Edgar">
+
   <extension point="xbmc.addon.repository"
              name="Mi Repositorio Kodi">
-    
     <info compressed="false">https://ingefcj.github.io/Kodi/repository.miaddon/addon.xml</info>
     <checksum>https://ingefcj.github.io/Kodi/repository.miaddon/addon.xml.md5</checksum>
     <datadir>https://ingefcj.github.io/Kodi/repository.miaddon/</datadir>
-
   </extension>
 
   <extension point="xbmc.addon.metadata">
     <summary>Repositorio de addons de Edgar</summary>
-    <description>Este repositorio contiene addons personalizados</description>
+    <description>Este repositorio contiene plugins como BlackGhost</description>
     <platform>all</platform>
   </extension>
 </addon>
